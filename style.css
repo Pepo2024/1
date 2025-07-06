@@ -855,7 +855,9 @@ body {
 }
 @media (max-width: 480px) {
   .motto-fullpage.motto-margin-top {
-    margin-top: 18px;
+    margin-top: 8px;
+    max-height: calc(100vh - 170px);
+    padding-bottom: 40px;
   }
 }
 
